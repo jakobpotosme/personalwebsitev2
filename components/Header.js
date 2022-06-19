@@ -20,7 +20,7 @@ function Header() {
             
 
             <div className=' p-2 border-blue-400 border-2 rounded-md '>
-                <Link href="public\resume.pdf" >Resume</Link>
+                <Link href="resume.pdf" >Resume</Link>
             </div>
         </div>
         
