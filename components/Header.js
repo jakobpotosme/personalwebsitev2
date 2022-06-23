@@ -4,24 +4,27 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='mx-auto flex justify-between px-24'>
+    <div className='mx-auto flex justify-between px-24 pt-12'>
         
-        <h1>Jakob Potosme</h1>
+        <h1 className='text-xl'>Jakob Potosme</h1>
 
         <div className='flex flex-row gap-x-10 justify-center items-center '>
             <ul className='flex flex-row gap-x-10  '>
-                <li>
-                    <Link href="/" >Blog</Link>
+                <li >
+                    <Link href="/"  >Blog</Link>
                 </li>
                 <li>
                     <Link href="/" >Web3</Link>
                 </li>
             </ul>
             
-
-            <div className=' p-2 border-blue-400 border-2 rounded-md '>
-                <Link href="resume.pdf" >Resume</Link>
-            </div>
+            
+            <Link href="resume.pdf" >
+                <button className=' p-2 border-[#00A789] hover:bg-[#007583]/30 border rounded-md '>
+                    Resume
+                </button>
+            </Link>
+            
         </div>
         
 
