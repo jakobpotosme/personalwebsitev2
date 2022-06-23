@@ -13,7 +13,7 @@ const Featured = () => {
     <div className='flex flex-col gap-y-2  max-w-7xl  py-32 px-24  '>
             
             <div className="relative flex py-5 items-center gap-x-6">
-                <span className="flex-shrink text-2xl font-semibold">Featured Project</span>
+                <span className="flex-shrink text-2xl font-bold">Featured Project</span>
                 <div className="w-1/3 border-t border-white"></div>
             </div>
 

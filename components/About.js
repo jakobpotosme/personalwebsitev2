@@ -32,7 +32,7 @@ function About() {
         <div className='flex flex-col gap-y-2 justify-left items-left  py-32 px-24 max-w-7xl '>
             
             <div id='aboutme' className="relative flex py-5 items-center gap-x-6">
-                <span className="flex-shrink text-2xl font-semibold">About Me</span>
+                <span className="flex-shrink text-2xl font-bold">About Me</span>
                 <div className="w-1/3 border-t border-white"></div>
             </div>
 
