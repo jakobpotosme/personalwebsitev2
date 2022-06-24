@@ -19,7 +19,7 @@ html{
   scrollbar-color: #777 #555;
 }
 html::-webkit-scrollbar{
-  width: 1vw;
+  width: 0.5vw;
   
 }
 
