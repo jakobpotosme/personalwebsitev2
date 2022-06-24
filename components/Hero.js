@@ -5,6 +5,7 @@ import {
   TiArrowDownOutline
 } from 'react-icons/ti';
 
+
 function Hero() {
     return (
         <>

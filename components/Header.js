@@ -11,10 +11,10 @@ function Header() {
         <div className='flex flex-row gap-x-10 justify-center items-center '>
             <ul className='flex flex-row gap-x-10  '>
                 <li >
-                    <Link href="/"  >Blog</Link>
+                    <Link href="/blog"  >Blog</Link>
                 </li>
                 <li>
-                    <Link href="/" >Web3</Link>
+                    <Link href="/web3" >Web3</Link>
                 </li>
             </ul>
             
