@@ -15,7 +15,7 @@ import {
 
 function GetInTouch() {
   return (
-    <div className="relative flex py-32 flex-col justify-center items-center gap-x-6 gap-y-6 ">
+    <div className="relative flex py-32 flex-col justify-center items-center gap-x-6 gap-y-6 xs:pl-28 ">
         <span className="flex-shrink text-4xl font-bold">Get In Touch</span>
         {/* <div className="w-1/3 border-t border-white"></div> */}
         <p className=' w-3/4 pb-12 text-center'>I am currently seeking new web development opportunities where I can make an impact and grow as a developer. Feel free to contact me below. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>

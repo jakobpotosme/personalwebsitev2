@@ -6,9 +6,9 @@ function Header() {
   return (
     <div className='mx-auto flex justify-between px-24 pt-12'>
         
-        <h1 className='text-xl'>Jakob Potosme</h1>
+        <h1 className='text-xl xs:inline-flex '>Jakob Potosme</h1>
 
-        <div className='flex flex-row gap-x-10 justify-center items-center '>
+        <div className='xs:pl-12 flex flex-row gap-x-10 justify-center items-center '>
             <ul className='flex flex-row gap-x-10  '>
                 <li >
                     <Link href="/blog"  >Blog</Link>

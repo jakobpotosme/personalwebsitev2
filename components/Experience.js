@@ -12,7 +12,7 @@ const Experience = () => {
     }
 
   return (
-    <div className='flex flex-col gap-y-2  max-w-7xl  py-32 px-24   '>
+    <div className='flex flex-col gap-y-2  max-w-7xl  py-32 px-24 xs:pl-56  '>
             
             <div className="relative flex py-5 items-center gap-x-6">
                 <span className="flex-shrink text-2xl font-bold">Experience</span>

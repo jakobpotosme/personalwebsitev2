@@ -40,9 +40,10 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
+          
           target="_blank"
           rel="noopener noreferrer"
-          className='mx-auto'
+          className='mx-auto pl-28'
         >
           © 2022 Potosme.
           

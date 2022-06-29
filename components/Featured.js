@@ -10,7 +10,8 @@ import {
 
 const Featured = () => {
   return (
-    <div className='flex flex-col gap-y-2  max-w-7xl  py-32 px-24  '>
+    <>
+    <div className='xs:hidden flex flex-col gap-y-2  max-w-7xl  py-32 px-24  '>
             
             <div className="relative flex py-5 items-center gap-x-6">
                 <span className="flex-shrink text-2xl font-bold">Featured Project</span>
@@ -58,6 +59,58 @@ const Featured = () => {
             
            
         </div>
+
+        {/* XS SCREEN */}
+        <div className='flex flex-col gap-y-2  max-w-7xl  py-32 px-24 md:hidden lg:hidden xl:hidden  '>
+            
+            <div className="relative flex py-5 items-center gap-x-6 ">
+                <span className="flex-shrink text-2xl font-bold pl-28 text-center">Featured Project</span>
+                {/* <div className="w-full border-t border-white"></div> */}
+            </div>
+                
+
+            {/* <div className='pl-12'>
+              <Image src={rocket} alt='Rocket gif' width={400} height={400} />
+            </div> */}
+
+            <div className='flex flex-row items-center  '>
+              
+
+              <div className='flex flex-col gap-y-4'>
+                <h1 className='text-2xl font-semibold pl-28 text-center'>Smolpad</h1>
+                <h3  className='text-lg pl-28 py-12'>A Web3 launchpad built to create high quality experiences while providing security 
+                      for the community
+                  
+                </h3>
+                
+                <div className='rounded flex items-end pl-28'>
+                  <a href={'https://www.smolpad.lol/'} passhref='true'>
+                  <Image src={preview} alt='preview'  width={800} height={250} className='rounded-xl' ></Image>
+                  {/* <Image src={externalLink} alt='link' width={25} height={25} /> */}
+                  </a>
+                   
+                </div>
+
+                <div className='flex gap-x-6 justify-end items-center pl-28 text-center pt-20'>
+                  <h1 className='text-xl font-semibold pt-2'>Side Projects</h1>
+                  <a href={'https://github.com/jakobpotosme?tab=repositories'} passhref='true' className='pt-2'>
+                  {/* <Image src={externalLink} alt='link' width={25} height={25} quality={100} /> 
+                  */}
+                  <BiLinkExternal size={20} className=' hover:fill-[#00A789]' />
+                  </a>
+                   
+                </div>
+                
+
+              </div>
+            </div>
+
+            
+
+            
+           
+        </div>
+    </>
   )
 }
 
