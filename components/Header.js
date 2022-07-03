@@ -6,7 +6,10 @@ function Header() {
   return (
     <div className='mx-auto flex justify-between px-24 pt-12'>
         
-        <h1 className='text-xl xs:inline-flex '>Jakob Potosme</h1>
+        <Link href='/'>
+            <a className='text-xl xs:inline-flex '>Jakob Potosme</a>
+        </Link>
+        
 
         <div className='xs:pl-12 flex flex-row gap-x-10 justify-center items-center '>
             <ul className='flex flex-row gap-x-10  '>
