@@ -12,6 +12,7 @@ import OtherProjects from '../components/OtherProjects'
 import Contact from '../components/Contact'
 import GetInTouch from '../components/GetInTouch'
 
+
 export default function Home() {
   return (
     // <div className={styles.container}>
@@ -36,14 +37,15 @@ export default function Home() {
         <GetInTouch />
         {/* <Contact /> */}
         {/* <OtherProjects /> */}
+        
       </main>
-
+      {/* <Footer /> */}
       <footer className={styles.footer}>
         <a
           
           target="_blank"
           rel="noopener noreferrer"
-          className='mx-auto pl-28'
+          className='mx-auto xs:pl-40'
         >
           © 2022 Potosme.
           

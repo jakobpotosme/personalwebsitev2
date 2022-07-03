@@ -4,8 +4,8 @@ const SweepEnergy = () => {
   return (
     <div className='flex flex-col gap-y-5'>
         <div className='flex flex-row gap-x-10 text-lg'>
-            <h1 className='font-bold'>Developer </h1>
-            <h1 className='font-bold text-[#00A789]'>Internship for Sweep Energy</h1>
+            <h1 className='font-bold text-center '>Developer </h1>
+            <h1 className='font-bold text-[#00A789] text-center'>Internship for Sweep Energy</h1>
         </div>
         <span>January 2021 - June 2021</span>
         

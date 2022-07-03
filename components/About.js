@@ -137,13 +137,13 @@ function About() {
         {/* // XS SCREEEN SIZE BELOW */}
         <div className=' md:hidden lg:hidden xl:hidden flex flex-col gap-y-2 justify-left items-left  py-32 px-24 max-w-7xl '>
             
-            <div id='aboutme' className="relative flex pl-56 py-5 items-center gap-x-6">
+            <div id='aboutme' className="relative flex pl-72 py-5 items-center gap-x-6">
                 <span className="flex-shrink text-2xl font-bold">About Me</span>
                 {/* <div className="w-1/3 border-t border-white"></div> */}
             </div>
 
 
-            <div className='flex flex-row justify-between pb-10 pl-28 text-center'>
+            <div className='flex flex-row justify-between pb-10 pl-40 text-center'>
 
                 <div className='w-full flex flex-col gap-y-4'>
                     <h3>Hello! My name is Jakob.  My interests in programming stems
@@ -158,13 +158,13 @@ function About() {
                 
             </div>
             
-            <div className=' -mt-20 pl-20 py-20'>
+            <div className=' -mt-20 pl-20 ml-20 py-20'>
                     <Image src={Me} alt='personal picture' height={350} width={350} className='' />
                 </div>
             <div className=' '>
-                <h1 className="flex-shrink text-2xl font-semibold pb-10 pl-20 text-center pt-10"> Current Favorite Tech Stack</h1>
+                <h1 className="flex-shrink text-2xl font-semibold pb-10 pl-20 ml-20 text-center pt-10"> Current Favorite Tech Stack</h1>
                 
-                <div className='flex flex-row gap-x-10 pl-28'>
+                <div className='flex flex-row gap-x-10 pl-40'>
                     
                     {/* <div onMouseEnter={()=>{toggleTab(2)}} onMouseLeave={()=>{toggleTab(1)}} className='p-2' >
                     
