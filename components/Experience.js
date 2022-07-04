@@ -23,15 +23,15 @@ const Experience = () => {
             <div className='flex flex-row gap-x-10'>
                 <div>
                     <ul className=''>
-                        <li  className={ toggle === 1 ? ` flex flex-row border-l-4 border-[#00A789] bg-[#10223E] p-2` : ` flex flex-row border-l-4 border-slate-700  p-2 `}>
+                        <li  className={ toggle === 1 ? ` flex flex-row border-l-4 border-[#14C38E] bg-[#10223E] p-2` : ` flex flex-row border-l-4 border-slate-700  p-2 `}>
                             {/* <div className='border-l-4 border-slate-700 p-2'></div> */}
-                            <button onClick={()=>{toggleTab(1)}} className='w-full p-4  text-[#00A789] '>
+                            <button onClick={()=>{toggleTab(1)}} className='w-full p-4  text-[#14C38E] '>
                                 SweepEnergy
                             </button>
                             
                         </li>
-                        <li className={ toggle === 2 ? ` flex flex-row border-l-4 border-[#00A789] bg-[#10223E] p-2` : ` flex flex-row border-l-4 border-slate-700  p-2 `} >
-                            <button onClick={()=>{toggleTab(2)}} className='w-full p-4  hover:bg-[#10223E] text-[#00A789]'>
+                        <li className={ toggle === 2 ? ` flex flex-row border-l-4 border-[#14C38E] bg-[#10223E] p-2` : ` flex flex-row border-l-4 border-slate-700  p-2 `} >
+                            <button onClick={()=>{toggleTab(2)}} className='w-full p-4  hover:bg-[#10223E] text-[#14C38E]'>
                                 Smolpad
                             </button>
                             {/* Smolpad */}

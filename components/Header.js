@@ -4,7 +4,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='mx-auto flex justify-between px-24 pt-12'>
+    <div className='mx-auto max-w-7xl flex justify-between px-10 pt-12 xs:pl-24'>
         
         <Link href='/'>
             <a className='text-xl xs:inline-flex '>Jakob Potosme</a>

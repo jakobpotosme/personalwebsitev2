@@ -11,7 +11,8 @@ function Hero() {
         <>
         <div className='flex flex-col gap-y-6 max-w-7xl  py-72 px-24 xs:text-center xs:pl-64 pl- '>
             
-            <h1 className='font-regular text-2xl text-[#00A789]'>Hi, my name is</h1>
+            {/* <h1 className='font-regular text-2xl text-[#00A789]'>Hi, my name is</h1> */}
+            <h1 className='font-regular text-2xl text-[#14C38E]'>Hi, my name is</h1>
             <h1 className='font-bold text-6xl'>Jakob Potosme.</h1>
             <h1 className='font-bold text-6xl text-gray-400'>Using the web to make dreams a reality</h1>
             <p className='font-regular text-xl'>I’m a full stack developer specializing in building exceptional digital experiences. </p>
@@ -20,7 +21,7 @@ function Hero() {
 
         <a href='#aboutme' className='pt-20 pb-32 xs:pl-40' >
             {/* <Image  src={arrowDown} alt='arrow down' className='animate-[bounce_2s_linear_infinite] w-6 h-6 ' /> */}
-            <TiArrowDownOutline size={56} className='animate-[bounce_2s_linear_infinite] fill-[#00A789] ' />
+            <TiArrowDownOutline size={56} className='animate-[bounce_2s_linear_infinite] fill-[#14C38E] ' />
         </a>
         
         </>
