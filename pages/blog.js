@@ -29,9 +29,9 @@ function Blog() {
     </div>
     <div className='flex justify-center items-center h-screen'>Coming soon...</div> */}
     <Header />
-    <div className='flex flex-col px-40  pt-20 max-w-6xl mx-auto '>
+    <div className='flex flex-col px-40  pt-20 max-w-6xl  xs:px-4 xs:w-[32rem]  mx-auto '>
 
-        <h1 className='font-semibold text-lg'>Welcome to my blog. This is where I will be writing about things that interest me, mainly topics that I have found useful in my programming journey. Including anything I find interesting, enjoy!</h1>
+        <h1 className='font-semibold text-lg xs:text-xl text-center'>Welcome to my blog. This is where I will be writing about things that interest me, mainly topics that I have found useful in my programming journey. Including anything I find interesting, enjoy!</h1>
         
         <div className=' pt-20' >
 
