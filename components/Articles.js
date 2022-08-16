@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-const Articles = ({title,body_markdown, description, url, cover_img, published_at, comments_count, page_views_count,reading_time_minutes}) => {
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+
+const Articles = ({title,body_markdown,body_html, description, url, cover_img, published_at, comments_count, page_views_count,reading_time_minutes}) => {
   return (
     <div className=' hover:border rounded-md  p-2 mb-5 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-104 duration-300'>
         <div className='flex flex-row justify-between '>
@@ -18,11 +21,7 @@ const Articles = ({title,body_markdown, description, url, cover_img, published_a
         
         <p className='py-10 text-md text-[#8996BB] w-full'>{description}</p>
         
-        {/* <h1>{cover_img}</h1>
-        <h1>{published_at}</h1>
-        <h1>{comments_count} </h1>
-        <h1>{reading_time_minutes}</h1> */}
-        {/* <p>{body_markdown}</p> */}
+        
         
 
     </div>

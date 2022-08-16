@@ -41,7 +41,7 @@ function Blog() {
             cover_img={elem.cover_image} url={elem.canonical_url} published_at={elem.published_at}
             comments_count={elem.comments_count} page_views_count={elem.page_views_count}
             reading_time_minutes={elem.reading_time_minutes} body_markdown={elem.body_markdown}
-            
+            body_html={elem.body_html}
             />
           )
         })}

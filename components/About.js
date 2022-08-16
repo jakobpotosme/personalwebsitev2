@@ -43,8 +43,8 @@ function About() {
 
                 <div className='w-1/2 flex flex-col gap-y-4'>
                     <h3>Hello! My name is Jakob.  My interests in programming stems
-    from my passion for sneakers. I was amazed by how powerful software can be. </h3>
-                    <h3>Now, I have had the pleasure of working on numerous projects turning ideas into a reality by designing and creating applications from start to finish. </h3>
+    from my passion for sneakers. I was amazed by just how powerful software can be. </h3>
+                    <h3>Now, I have had the pleasure of working on numerous projects with local companies and online communties, turning ideas into a reality by designing and creating applications from start to finish providing an excellent user experience. </h3>
                     <h3>I am currently seeking opportunities that will allow me to use the skills that I have learned from both university and personal projects, in order to make a difference as a developer.</h3>
 
                 </div>
@@ -148,7 +148,7 @@ function About() {
                 <div className='w-full flex flex-col gap-y-4'>
                     <h3>Hello! My name is Jakob.  My interests in programming stems
     from my passion for sneakers. I was amazed by how powerful software can be. </h3>
-                    <h3>Now, I have had the pleasure of working on numerous projects turning ideas into a reality by designing and creating applications from start to finish. </h3>
+                    <h3>Now, I have had the pleasure of working on numerous projects with local companies and online communties, turning ideas into a reality by designing and creating applications from start to finish providing an excellent user experience.  </h3>
                     <h3>I am currently seeking opportunities that will allow me to use the skills that I have learned from both university and personal projects, in order to make a difference as a developer.</h3>
 
                 </div>
