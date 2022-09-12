@@ -85,7 +85,9 @@ function GetInTouch() {
         </div>
       </div>
 
-      <div className="mt-12 flex flex-row md:hidden lg:hidden xl:hidden">
+      {/* XS SCREENS */}
+
+      <div className="mt-12 flex flex-row md:hidden lg:hidden xl:hidden xxl:hidden">
         {/* <!-- Contact info --> */}
 
         {/* <!-- Socials --> */}

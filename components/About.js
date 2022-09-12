@@ -134,7 +134,7 @@ function About() {
       </div>
 
       {/* // XS SCREEEN SIZE BELOW */}
-      <div className="xs:grid md:hidden lg:hidden xl:hidden grid grid-cols-1  max-w-[90%] mx-auto ">
+      <div className="xs:grid md:hidden lg:hidden xl:hidden xxl:hidden grid grid-cols-1  max-w-[90%] mx-auto ">
         {/* Left Col */}
         <div className="flex flex-col gap-y-4 mx-auto text-center">
           <span className=" text-lg border-b font-medium">About Me</span>

@@ -136,7 +136,7 @@ const Featured = () => {
       </div>
 
       {/* XS SCREEN */}
-      <div className="flex flex-col gap-y-2 mx-auto pt-32 xs:max-w-[90%] md:hidden lg:hidden xl:hidden  ">
+      <div className="flex flex-col gap-y-2 mx-auto pt-32 xs:max-w-[90%] md:hidden lg:hidden xl:hidden xxl:hidden  ">
         <h1 className="text-lg border-b font-medium pt-10 text-center">
           Featured Project
         </h1>

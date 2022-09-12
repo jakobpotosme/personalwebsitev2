@@ -26,7 +26,7 @@ function Hero() {
 
   return (
     <>
-      <div className="flex flex-col mx-auto max-w-[90%] xs:min-h-[100vh] md:min-h-[100vh] min-h-[100vh]  justify-center items-start ">
+      <div className="flex flex-col mx-auto max-w-[90%] xs:min-h-[100vh] md:min-h-[100vh] min-h-[100vh]    justify-center items-start ">
         {/* <h1 className='font-regular text-2xl text-[#00A789]'>Hi, my name is</h1> */}
         <div className="">
           <animated.div

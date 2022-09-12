@@ -25,8 +25,8 @@ function Blog() {
     </div>
     <div className='flex justify-center items-center h-screen'>Coming soon...</div> */}
       <Header />
-      <div className="flex flex-col px-40  pt-20 max-w-6xl  xs:px-4 xs:w-[32rem]  mx-auto ">
-        <h1 className="font-semibold text-lg xs:text-xl text-center">
+      <div className="flex flex-col max-w-[90%] xl:max-w-[80%] xxl:max-w-[70%] mx-auto ">
+        <h1 className="font-semibold text-lg xs:text-base xs:pt-4 pt-4 text-center">
           Welcome to my blog. This is where I will be writing about things that
           interest me, mainly topics that I have found useful in my programming
           journey. Including anything I find interesting, enjoy!
