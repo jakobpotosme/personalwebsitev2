@@ -17,57 +17,118 @@ const Experience = () => {
   }, [parent]);
 
   return (
-    <div className="flex flex-col gap-y-2  max-w-7xl  py-32 px-24 xs:pl-56  ">
-      <div className="relative flex py-5 items-center gap-x-6">
-        <span className="flex-shrink text-2xl font-bold">Experience</span>
-        <div className="w-1/3 border-t border-white"></div>
-      </div>
+    <>
+      <div className="flex xs:hidden md:block flex-col gap-y-2 pb-56 max-w-[90%] mx-auto ">
+        <div className="relative flex py-5 items-center gap-x-6">
+          <span className="flex-shrink xs:text-lg text-2xl font-bold">
+            Experience
+          </span>
+          <div className="w-1/3 border-t border-white"></div>
+        </div>
 
-      <div className="flex flex-row gap-x-10">
-        <div className="">
-          <ul className="">
-            <li
-              className={
-                toggle === 1
-                  ? ` flex flex-row border-l-4 border-[#14C38E] bg-[#10223E] p-2`
-                  : ` flex flex-row border-l-4 border-slate-700  p-2 `
-              }
-            >
-              {/* <div className='border-l-4 border-slate-700 p-2'></div> */}
-              <button
-                onClick={() => {
-                  toggleTab(1);
-                }}
-                className="w-full p-4  text-[#14C38E] "
+        <div className="flex flex-row gap-x-10">
+          <div className="">
+            <ul className="">
+              <li
+                className={
+                  toggle === 1
+                    ? ` flex flex-row border-l-4 border-[#14C38E] bg-[#10223E] p-2`
+                    : ` flex flex-row border-l-4 border-slate-700  p-2 `
+                }
               >
-                SweepEnergy
-              </button>
-            </li>
-            <li
-              className={
-                toggle === 2
-                  ? ` flex flex-row border-l-4 border-[#14C38E] bg-[#10223E] p-2`
-                  : ` flex flex-row border-l-4 border-slate-700  p-2 `
-              }
-            >
-              <button
-                onClick={() => {
-                  toggleTab(2);
-                }}
-                className="w-full p-4  hover:bg-[#10223E] text-[#14C38E]"
+                {/* <div className='border-l-4 border-slate-700 p-2'></div> */}
+                <button
+                  onClick={() => {
+                    toggleTab(1);
+                  }}
+                  className="w-full p-4  text-[#14C38E] "
+                >
+                  SweepEnergy
+                </button>
+              </li>
+              <li
+                className={
+                  toggle === 2
+                    ? ` flex flex-row border-l-4 border-[#14C38E] bg-[#10223E] p-2`
+                    : ` flex flex-row border-l-4 border-slate-700  p-2 `
+                }
               >
-                Smolpad
-              </button>
-              {/* Smolpad */}
-            </li>
-          </ul>
-        </div>
-        <div ref={parent}>
-          {toggle === 1 && <SweepEnergy />}
-          {toggle === 2 && <Smolpad />}
+                <button
+                  onClick={() => {
+                    toggleTab(2);
+                  }}
+                  className="w-full p-4  hover:bg-[#10223E] text-[#14C38E]"
+                >
+                  Smolpad
+                </button>
+                {/* Smolpad */}
+              </li>
+            </ul>
+          </div>
+          <div ref={parent}>
+            {toggle === 1 && <SweepEnergy />}
+            {toggle === 2 && <Smolpad />}
+          </div>
         </div>
       </div>
-    </div>
+      {/* // XS Screen */}
+      <div className=" xs:block md:hidden hidden flex-col gap-y-4  xs:pt-32  max-w-[90%] mx-auto ">
+        {/* <div className="relative flex py-5 items-center gap-x-6">
+          <span className="flex-shrink xs:text-base  font-bold">
+            Experience
+          </span>
+          <div className="w-1/3 border-t border-white"></div>
+        </div> */}
+        <h1 className="text-lg border-b font-medium pt-10 text-center">
+          Experience
+        </h1>
+
+        <div className="flex flex-col gap-x-10 pt-5">
+          <div className="pt-4">
+            <ul className="flex flex-row text-sm w-full mx-auto ">
+              <li
+                className={
+                  toggle === 1
+                    ? ` flex flex-row border-b-2 mt-2 mx-auto w-full border-[#14C38E] bg-[#10223E] p-2`
+                    : ` flex flex-row border-b-2 mt-2 mx-auto w-full  border-slate-700  p-2 `
+                }
+              >
+                {/* <div className='border-l-4 border-slate-700 p-2'></div> */}
+                <button
+                  onClick={() => {
+                    toggleTab(1);
+                  }}
+                  className="w-full p-2  text-[#14C38E] "
+                >
+                  SweepEnergy
+                </button>
+              </li>
+              <li
+                className={
+                  toggle === 2
+                    ? ` flex flex-row border-b-2 mt-2 mx-auto w-full border-[#14C38E] bg-[#10223E] p-2`
+                    : ` flex flex-row border-b-2 mt-2 mx-auto w-full border-slate-700  p-2 `
+                }
+              >
+                <button
+                  onClick={() => {
+                    toggleTab(2);
+                  }}
+                  className="w-full p-2  hover:bg-[#10223E] text-[#14C38E] "
+                >
+                  Smolpad
+                </button>
+                {/* Smolpad */}
+              </li>
+            </ul>
+          </div>
+          <div ref={parent}>
+            {toggle === 1 && <SweepEnergy />}
+            {toggle === 2 && <Smolpad />}
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

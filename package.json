@@ -20,6 +20,7 @@
     "react-dom-confetti": "^0.2.0",
     "react-icons": "^4.4.0",
     "react-markdown": "^8.0.3",
+    "react-slick": "^0.29.0",
     "react-spring": "^9.4.5",
     "react-tippy": "^1.4.0",
     "remark-code-blocks": "^2.0.1",
