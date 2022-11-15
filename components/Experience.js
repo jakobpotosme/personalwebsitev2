@@ -3,6 +3,7 @@ import SweepEnergy from "./cards/SweepEnergy";
 import Smolpad from "./cards/Smolpad";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import autoAnimate from "@formkit/auto-animate";
+import SteppingStone from "./cards/SteppingStone";
 
 const Experience = () => {
   const [toggle, setToggle] = useState(1);
@@ -57,9 +58,26 @@ const Experience = () => {
                   onClick={() => {
                     toggleTab(2);
                   }}
-                  className="w-full p-4  hover:bg-[#10223E] text-[#14C38E]"
+                  className="w-full p-4   text-[#14C38E]"
                 >
                   Smolpad
+                </button>
+                {/* Smolpad */}
+              </li>
+              <li
+                className={
+                  toggle === 3
+                    ? ` flex flex-row border-l-4 border-[#14C38E] bg-[#10223E] p-2`
+                    : ` flex flex-row border-l-4 border-slate-700  p-2 `
+                }
+              >
+                <button
+                  onClick={() => {
+                    toggleTab(3);
+                  }}
+                  className="w-full p-4   text-[#14C38E]"
+                >
+                  Stepping Stone
                 </button>
                 {/* Smolpad */}
               </li>
@@ -68,6 +86,7 @@ const Experience = () => {
           <div ref={parent}>
             {toggle === 1 && <SweepEnergy />}
             {toggle === 2 && <Smolpad />}
+            {toggle === 3 && <SteppingStone />}
           </div>
         </div>
       </div>
@@ -100,7 +119,7 @@ const Experience = () => {
                   }}
                   className="w-full p-2  text-[#14C38E] "
                 >
-                  SweepEnergy
+                  Sweep Energy
                 </button>
               </li>
               <li
@@ -120,11 +139,29 @@ const Experience = () => {
                 </button>
                 {/* Smolpad */}
               </li>
+              <li
+                className={
+                  toggle === 3
+                    ? ` flex flex-row border-b-2 mt-2 mx-auto w-full border-[#14C38E] bg-[#10223E] p-2`
+                    : ` flex flex-row border-b-2 mt-2 mx-auto w-full border-slate-700  p-2 `
+                }
+              >
+                <button
+                  onClick={() => {
+                    toggleTab(3);
+                  }}
+                  className="w-full p-2  hover:bg-[#10223E] text-[#14C38E] "
+                >
+                  Stepping Stone
+                </button>
+                {/* Smolpad */}
+              </li>
             </ul>
           </div>
           <div ref={parent}>
             {toggle === 1 && <SweepEnergy />}
             {toggle === 2 && <Smolpad />}
+            {toggle === 3 && <SteppingStone />}
           </div>
         </div>
       </div>

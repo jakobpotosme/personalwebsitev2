@@ -2,7 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import rocket from "../public/images/rocket.gif";
-import preview from "../public/images/smolpadPreview.png";
+import stepstone from "../public/images/stepstone.png";
+import smolpad from "../public/images/smolpadPreview.png";
+// import preview from "../public/images/steppingstonepreview.png";
+import preview from "../public/images/new_preview.png";
 import externalLink from "../public/images/external-link.svg";
 import { BiLinkExternal } from "react-icons/bi";
 import Slider from "react-slick";
@@ -31,19 +34,26 @@ const Featured = () => {
         </div>
 
         <div className="flex flex-row items-center  ">
-          <div className="mr-24">
-            <Image src={rocket} alt="Rocket gif" width={400} height={400} />
+          <div className="mr-24 rounded-lg">
+            {/* <Image src={rocket} alt="Rocket gif" width={400} height={400} /> */}
+            <Image
+              src={stepstone}
+              alt="Stepstone"
+              width={400}
+              height={400}
+              className="rounded-sm"
+            />
           </div>
 
           <div className="flex flex-col gap-y-4">
-            <h1 className="text-2xl font-semibold">Smolpad</h1>
-            <h3 className="text-lg ">
-              A Web3 launchpad built to create high quality experiences while
-              providing security for the community
+            <h1 className="text-2xl font-semibold">SteppingStone</h1>
+            <h3 className="text-md ">
+              Stepping Stone is a community of collective talent. A place where
+              users can come together to achieve their goals.
             </h3>
 
             <div className="rounded flex items-end">
-              <a href={"https://www.smolpad.lol/"} passhref="true">
+              <a href={"https://www.steppingstone.dev/"} passhref="true">
                 <Image
                   src={preview}
                   alt="preview"
@@ -68,16 +78,38 @@ const Featured = () => {
             </div> */}
           </div>
         </div>
-        <div className="flex flex-col gap-x-6 gap-y-20 justify-center items-center py-10">
+        <div className="flex flex-col gap-x-6 gap-y-10 justify-center items-center py-10">
           <div>
-            <h1 className="text-2xl font-semibold  pt-2 text-center">
+            <h1 className="text-2xl font-semibold  pt-10 text-center">
               Notable Side Projects
             </h1>
             <div className="border-b pt-2"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-x-20 gap-y-4 ">
+          <div className="grid grid-cols-2 gap-x-20 gap-y-4 items-center ">
+            <Link href="https://www.smolpad.lol/">
+              <Image
+                src={rocket}
+                alt="Rocket gif"
+                width={400}
+                height={400}
+                className="rounded-xl cursor-pointer "
+              />
+            </Link>
             <div className="flex flex-col gap-y-2">
+              <h1 className="text-base font-semibold text-center xl:text-xl">
+                Hub3
+              </h1>
+              <p className="text-left xl:text-lg">
+                A central hub where users can track crypto prices as well as
+                view details for the nfts that they own. Technologies involved
+                were primarily Next.js, React interacting with CoinGecko Api and
+                Alchemy SDK.
+              </p>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-x-20 gap-y-4 items-center ">
+            <div className="flex flex-col gap-y-2 ">
               <h1 className="text-base font-semibold text-center xl:text-xl">
                 Dynamic Month NFT: Colors
               </h1>
@@ -88,10 +120,7 @@ const Featured = () => {
                 Moralis, Solidity, Hardhat, The Graph Protocol and Pinata.
               </p>
             </div>
-            <Link
-              href="https://dynamic-month-nft-front-end.vercel.app/"
-              className="cursor-pointer"
-            >
+            <Link href="https://dynamic-month-nft-front-end.vercel.app/">
               <Image
                 src={Colors}
                 alt="preview"
@@ -101,8 +130,8 @@ const Featured = () => {
               />
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-x-20 gap-y-4 ">
-            <Link href="https://hub3.vercel.app/" className="cursor-pointer">
+          <div className="grid grid-cols-2 gap-x-20 gap-y-4 items-center pt-5">
+            <Link href="https://hub3.vercel.app/">
               <Image
                 src={Hub3}
                 alt="preview"
@@ -141,10 +170,10 @@ const Featured = () => {
           Featured Project
         </h1>
 
-        <div className="flex flex-1 flex-row justify-center items-center mx-auto">
-          <h1 className="text-lg font-semibold text-center ">Smolpad</h1>
+        <div className="flex flex-1 flex-row justify-center items-center mx-auto gap-x-5">
+          <h1 className="text-lg font-semibold text-center ">Stepping Stone</h1>
           <div className="pt-2">
-            <Image src={rocket} alt="Rocket gif" width={50} height={50} />
+            <Image src={stepstone} alt="Rocket gif" width={25} height={25} />
           </div>
         </div>
 
