@@ -87,7 +87,7 @@ function GetInTouch() {
 
       {/* XS SCREENS */}
 
-      <div className="mt-12 flex flex-row md:hidden lg:hidden xl:hidden xxl:hidden">
+      <div className="mt-12 hidden xs:flex flex-row md:hidden lg:hidden xl:hidden xxl:hidden">
         {/* <!-- Contact info --> */}
 
         {/* <!-- Socials --> */}
